@@ -1,0 +1,102 @@
+div {
+  position: relative;
+}
+
+div div {
+  background-color: #99f;
+  margin: 0px auto;
+}
+
+/* Head elements positioning: head itself, aerials and eyes */
+
+.head {
+  width: 240px;
+  height: 100px;
+  margin-top: 100px;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+}
+
+.l_eye, .r_eye {
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  position: absolute;
+}
+
+.l_eye {
+  top: 40px;
+  left: 60px;
+}
+
+.r_eye {
+  top: 40px;
+  right: 60px;
+}
+
+.l_aerial, .r_aerial {
+  width: 5px;
+  height: 50px;
+  position: absolute;
+  top: -45px;
+  transform-origin: bottom;
+
+}
+
+.l_aerial {
+  left: 80px;
+  transform: rotate(-30deg);
+}
+
+.r_aerial {
+  right: 80px;
+  transform: rotate(30deg);
+}
+
+/* Body elements positioning: body itself, arms and legs*/
+
+.body {
+  width: 240px;
+  height: 200px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  position: relative;
+  top: 8px;
+}
+
+.l_leg, .r_leg {
+  width: 50px;
+  height: 80px;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  position: absolute;
+  bottom: -80px;
+}
+
+.l_leg {
+  left: 50px;
+}
+
+.r_leg {
+  right: 50px;
+}
+
+.l_arm, .r_arm {
+  width: 50px;
+  height: 150px;
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  position: absolute;
+  top: 0;
+}
+
+.l_arm {
+  left: -58px;
+}
+
+.r_arm {
+  right: -58px;
+}
